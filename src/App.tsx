@@ -1,8 +1,14 @@
+import { Box } from '@mui/system'
 import React from 'react'
 import './App.css'
+import ResponsiveDrawer from './components/Sidebar'
 
 function App() {
-  return <h1>App</h1>
+  return (
+    <>
+      <ResponsiveDrawer />
+    </>
+  )
 }
 
 export default App
